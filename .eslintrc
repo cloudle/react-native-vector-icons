@@ -6,5 +6,8 @@
     "import/no-extraneous-dependencies": [0],
     "import/no-unresolved": [2, { ignore: ['^react(-native)?$'] }],
     "import/extensions": [2, { "js": "never", "json": "always" }]
+  },
+  "globals": {
+    "document": true
   }
 }
